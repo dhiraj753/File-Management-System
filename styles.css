@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.button-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-row button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-row button:hover {
+    background-color: #0056b3;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#fileList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#fileList th, #fileList td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#fileList th {
+    background-color: #f2f2f2;
+}
+
+#fileList tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#fileList tr:hover {
+    background-color: #f1f1f1;
+}
+
+#fileList input[type="checkbox"] {
+    margin: 0;
+}
+
+#fileList button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+#fileList button:hover {
+    background-color: #138496;
+}

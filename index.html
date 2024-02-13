@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Management System</h1>
+        <div class="button-row">
+            <input type="file" id="fileInput" multiple>
+            <button onclick="uploadFiles()">Upload</button>
+            <button onclick="viewFiles()">View All Files</button>
+            <button onclick="selectAll()">Select All</button>
+            <button onclick="deleteSelected()">Delete Selected Files</button>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" onkeyup="searchFiles()" placeholder="Search files...">
+        </div>
+        <div id="fileList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
